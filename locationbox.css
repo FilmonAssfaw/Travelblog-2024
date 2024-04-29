@@ -1,0 +1,35 @@
+.location-box {
+  display: inline-block;
+  width: 220px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.location-box__image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.location-box__info {
+  margin-top: 10px;
+  color: #333;
+}
+
+.location-box__city {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.location-box__country {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.location-box__date {
+  font-size: 0.9rem;
+  color: #666;
+}

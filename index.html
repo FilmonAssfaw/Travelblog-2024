@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="basic.css" />
+    <link rel="stylesheet" href="locationbox.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__container container">
+        <h1 class="header__logo logo">Travel Blog</h1>
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Add Location</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">The Traveler</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Homepage Hero -->
+    <section id="home" class="hero">
+      <div class="hero__content container">
+        <h2 class="hero__title">Welcome to my Travel Blog</h2>
+        <img
+          src="https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg"
+          alt="Hero__picture"
+        />
+        <p class="hero__description">Explore the world with me!</p>
+      </div>
+    </section>
+
+    <!-- List of Travel Locations -->
+    <section id="destinations" class="destinations">
+      <div class="container">
+        <h2 class="destinations__title">Featured Destinations</h2>
+        <div class="destination">
+          <img src="" alt="Destination 1" class="destination__image" />
+          <h3 class="destination__title">Destination 1</h3>
+          <p class="destination__description">Description of Destination 1.</p>
+        </div>
+        <div class="location-box">
+          <img
+            class="location-box__image"
+            src="https://images.pexels.com/photos/18991572/pexels-photo-18991572/free-photo-of-sand-wuste-tier-sitzung.jpeg"
+            alt="Kairo"
+          />
+          <div class="location-box__info">
+            <h2 class="location-box__city">Kairo</h2>
+            <p class="location-box__country">Egypt</p>
+            <p class="location-box__date">Date of Visit: March 15, 2023</p>
+          </div>
+        </div>
+
+        <div class="location-box">
+          <img
+            class="location-box__image"
+            src="https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg"
+            alt="Tokyo"
+          />
+          <div class="location-box__info">
+            <h2 class="location-box__city">Tokyo</h2>
+            <p class="location-box__country">Japan</p>
+            <p class="location-box__date">Date of Visit: September 28, 2023</p>
+          </div>
+        </div>
+
+        <div class="location-box">
+          <img
+            class="location-box__image"
+            src="https://images.pexels.com/photos/12406966/pexels-photo-12406966.jpeg?auto=compress"
+            alt="Somewhere in Antarctica"
+          />
+          <div class="location-box__info">
+            <h2 class="location-box__city">Just-Cold</h2>
+            <p class="location-box__country">Antarctica</p>
+            <p class="location-box__date">Date of Visit: January 1, 2022</p>
+          </div>
+        </div>
+        <!-- More destinations here -->
+      </div>
+    </section>
+
+    <!-- Map with Pinned Locations -->
+    <section class="map">
+      <div class="container">
+        <h2 class="map__title">Explore on the Map</h2>
+        <div id="map" class="map__container"></div>
+      </div>
+    </section>
+
+    <!-- New Location Page -->
+    <!-- This will be a form for submitting new locations -->
+
+    <!-- About Page -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="about__title">About Us</h2>
+        <p class="about__description">
+          Description of the travel blog and its creators.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+      <div class="container">
+        <p class="footer__copyright">
+          &copy; 2024 Fili`s Travel Blog. All rights reserved.
+        </p>
+        <!-- Social media icons here -->
+      </div>
+    </footer>
+
+    <script src="map.js"></script>
+  </body>
+</html>

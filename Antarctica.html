@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="basic.css" />
+    <link rel="stylesheet" href=".js" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__container container">
+        <h1 class="header__logo logo">Travel Blog</h1>
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#destinations" class="nav__link">Destinations</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="destinations" class="destinations">
+      <div class="container">
+        <h2 class="destinations__title">Featured Destinations</h2>
+        <div class="destination">
+          <img src="" alt="Destination 1" class="destination__image" />
+          <h3 class="destination__title">Destination 1</h3>
+          <p class="destination__description">Description of Destination 1.</p>
+        </div>
+      </section>
+  
+      <!-- Map with Pinned Locations -->
+      <section class="map">
+        <div class="container">
+          <h2 class="map__title">Explore on the Map</h2>
+          <div id="map" class="map__container"></div>
+        </div>
+      </section>
+  </body>
+</html>
